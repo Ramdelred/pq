@@ -4,4 +4,6 @@ image:
 tasks:
   - name: fix perms
     command: |
-      sudo chown -R camper:camper /workspace
+      sudo mkdir /workspace/project
+      sudo chmod -R 777:777 /workspace
+      
