@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 
 ARG USERNAME=camper
-ARG HOMEDIR=/workspace/project
+ARG HOMEDIR=/workspace/
 
 ENV TZ="America/New_York" \
   LOCALE=en_US.UTF-8
