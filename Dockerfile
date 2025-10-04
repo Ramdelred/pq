@@ -21,6 +21,7 @@ RUN curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 RUN sudo apt install -y nodejs
 RUN sudo mkdir /workspace
 RUN sudo mkdir ${HOMEDIR}
+RUN sudo chmod -R 777 ${HOMEDIR}
 RUN sudo chown -R ${USERNAME}:${USERNAME} ${HOMEDIR}
 
 WORKDIR ${HOMEDIR}
