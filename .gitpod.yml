@@ -4,6 +4,5 @@ image:
 tasks:
   - name: fix perms
     command: |
-      sudo mkdir /workspace/project
       sudo chmod -R 777 /workspace
       
