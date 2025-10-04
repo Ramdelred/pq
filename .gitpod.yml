@@ -1,2 +1,7 @@
 image:
   file: Dockerfile
+
+tasks:
+  - name: fix perms
+    command: |
+      sudo chown -R camper:camper /workspace
