@@ -4,5 +4,5 @@ image:
 tasks:
   - name: fix perms
     command: |
-      sudo chmod -R 777 /workspace
+      sudo chown -R :camper /workspace
       
